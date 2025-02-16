@@ -51,7 +51,7 @@ are available in R. In brief, it can start with one simple line of command:
 
 Or for data with replcates:
 
-		out2 = Darts(in_fn = "test_rmats_rep.txt", out_fn = "test_darts_rep.txt", iter=T)
+		out2 = Darts_replicate(in_fn = "test_rmats_rep.txt", out_fn = "test_darts_rep.txt", iter=T, thread=3)
 
 
 ### Output file
